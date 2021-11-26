@@ -1,0 +1,11 @@
+{
+  "name": "@monorepo-mern/http-client",
+  "version": "1.0.0",
+  "dependencies": {
+    "@monorepo-mern/server": "^1.0.0",
+    "cowsay": "^1.4.0"
+  },
+  "scripts": {
+    "serve": "node index.js"
+  }
+}
