@@ -50,6 +50,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
+            ["prettier", "npm:2.5.0"],
             ["typescript", "patch:typescript@npm%3A4.5.2#~builtin<compat/typescript>::version=4.5.2&hash=493e53"]
           ],
           "linkType": "SOFT",
@@ -1480,6 +1481,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["monorepo-mern", "workspace:."],
+            ["prettier", "npm:2.5.0"],
             ["typescript", "patch:typescript@npm%3A4.5.2#~builtin<compat/typescript>::version=4.5.2&hash=493e53"]
           ],
           "linkType": "SOFT",
@@ -1684,6 +1686,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/picomatch-npm-2.3.0-5e60e6c82d-16818720ea.zip/node_modules/picomatch/",
           "packageDependencies": [
             ["picomatch", "npm:2.3.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["prettier", [
+        ["npm:2.5.0", {
+          "packageLocation": "./.yarn/cache/prettier-npm-2.5.0-f1121aaab1-aad1b35b73.zip/node_modules/prettier/",
+          "packageDependencies": [
+            ["prettier", "npm:2.5.0"]
           ],
           "linkType": "HARD",
         }]
